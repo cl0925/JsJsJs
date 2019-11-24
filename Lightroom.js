@@ -1,3 +1,8 @@
+/*
+https:\/\/photos\.adobe\.io\/v2\/accounts* url script-response-body Lightroom.js
+@supported 96440338D30B
+*/
+
 body = $response.body.replace(/while.{7}\n/, "");
 let obj = JSON.parse(body);
 obj.entitlement.status="subscriber";

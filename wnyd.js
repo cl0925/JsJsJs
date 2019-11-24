@@ -8,6 +8,7 @@ Surge4：
 http-response ^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/wnyd.js
 
 Surge & QX MITM = p.du.163.com
+@supported 96440338D30B
 */
 
 var body = $response.body;

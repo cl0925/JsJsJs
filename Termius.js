@@ -9,6 +9,7 @@ QX：
 https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Termius.js
 
 Surge & QX MITM = api.termius.com
+@supported 96440338D30B
 */
 
 let obj=JSON.parse($response.body)

@@ -3,7 +3,6 @@
 ^https?://mp.weixin.qq.com/mp/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
 
 hostname = mp.weixin.qq.com,
-@supported 96440338D30B
 */
 
 var obj = JSON.parse($response.body);

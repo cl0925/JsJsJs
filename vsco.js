@@ -1,7 +1,3 @@
-/*
-https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/ url script-response-body vsco.js
-@supported 96440338D30B
-*/
 var body = $response.body;
 var url = $request.url;
 

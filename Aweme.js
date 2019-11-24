@@ -7,6 +7,8 @@ http-response ^https://[\s\S]*\/aweme/v1/(feed|aweme/post|follow/feed)/ requires
 
 [MITM]
 hostname = *.amemv.com, *.snssdk.com
+
+@supported 96440338D30B
 */
 
 let arr = {

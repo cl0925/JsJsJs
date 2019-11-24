@@ -1,6 +1,9 @@
 /*
-README：https://github.com/yichahucha/surge/blob/master/README.md
+去微博应用内广告 (By yichahucha)
+;^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page) url script-response-body wb_ad.js
+@supported 96440338D30B
  */
+
 
 const path1 = "/groups/timeline";
 const path2 = "/statuses/unread";
@@ -19,6 +22,7 @@ const path14 = "/cardlist";
 const path15 = "/statuses/video_timeline";
 const path16 = "/page";
 const path17 = "/statuses/friends_timeline";
+const path18 = "/!/photos/pic_recommend_status";
 
 const url = $request.url;
 var body = $response.body;
@@ -60,7 +64,8 @@ if (url.indexOf(path4) != -1) {
     body = JSON.stringify(obj);
 }
 
-if (url.indexOf(path5) != -1) {
+if (url.indexOf(path5) != -1 ||
+    url.indexOf(path18) != -1) {
     let obj = JSON.parse(body);
     obj.data = {};
     body = JSON.stringify(obj);
