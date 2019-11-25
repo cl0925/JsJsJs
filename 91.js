@@ -7,6 +7,7 @@ QX1.0.0:
 
 Surge4.0:
 http-request ^https?:\/\/.+\.(my10api|(.*91.*))\.(com|tips|app|xyz)(:\d{2,5})?\/api.php$ script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/91ShortVideo.js
+@supported 96440338D30B
 */
 
 var body = $response.body;
