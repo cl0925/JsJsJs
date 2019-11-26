@@ -1,3 +1,6 @@
+/*
+@supported 96440338D30B
+*/
 var obj = JSON.parse($response.body);
 obj = {
     "code": 0,
