@@ -24,7 +24,7 @@ MitM = dayone.me
 
 本脚本由 @ImSingee 与 @Mornwind 共同完成，请勿在公开群组、频道或是论坛、博客发布
 @supported 96440338D30B
-*/
+
 
 if ($response.status == 200) {
 	const bodyJson = JSON.parse($response.body);
@@ -35,3 +35,17 @@ if ($response.status == 200) {
 } else {
 	$done({});
 }
+*/
+
+var obj = JSON.parse($response.body);
+
+obj= {
+ "subscriptionName": "premium",
+ "subscriptionPlan": "com.bloombuilt.dayoneios.subscription.premium.yearly_discounted_trial",
+ "bundleReason": "purchase",
+ "expirationDate": 1890026360000,
+ "lastRenewalDate": 1574406552000,
+ "cancellationDate": 0,
+ "startDate": 1574406552000
+};
+$done({body: JSON.stringify(obj)});
