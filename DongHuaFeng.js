@@ -1,3 +1,11 @@
+/*
+动画疯去片头广告 (surge)
+http-request https:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/(v3\/token\.php|v1\/video\.php) debug=1,script-path=DongHuaFeng.js
+http-response https:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/(v3\/token\.php|v1\/video\.php) requires-body=1,max-size=0,debug=1,script-path=DongHuaFeng.js
+
+mitm api.gamer.com.tw
+仅支持surge
+*/
 var url = $request.url;
 
 if ($request.headers) {
