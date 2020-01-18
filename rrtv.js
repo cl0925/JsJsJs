@@ -1,10 +1,3 @@
-/*
-^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll) url script-response-body rrtv.js
-
-mitm:api.rr.tv
-@supported 96440338D30B
-*/
-
 var body = $response.body;
 var url = $request.url;
 

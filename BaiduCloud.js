@@ -3,12 +3,11 @@ Baidu netdisc unlocks online video play speed.
 
 Surge4.0:
 http-response https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
-播放百度原画
+
 QX1.0.0:
 https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
 
 MITM = pan.baidu.com
-@supported 96440338D30B
 */
 
 let obj = JSON.parse($response.body);

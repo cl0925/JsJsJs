@@ -1,8 +1,7 @@
 /*
-@supported ID
-https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua)
-@supported 96440338D30B
-*/
+README：https://github.com/yichahucha/surge/tree/master
+@supported A9DA732136CB
+ */
 
 const path1 = "/interface/sdk/sdkad.php";
 const path2 = "/wbapplua/wbpullad.lua";

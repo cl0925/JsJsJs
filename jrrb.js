@@ -1,5 +1,6 @@
 //今日热榜 crate by makexp 2020.01.14
 //^https:\/\/api\.tophub\.today\/account\/sync* url script-response-body jrrb.js
+
 var obj = JSON.parse($response.body);
  obj={
  "data": {

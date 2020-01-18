@@ -1,11 +1,3 @@
-/*
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt
-
-mitm:buy.itunes.apple.com
-
-@supported 96440338D30B
-*/
-
 var obj = JSON.parse($response.body);
 var bundle_id = obj.receipt["bundle_id"];
 if (bundle_id == "net.shinyfrog.bear-iOS") {

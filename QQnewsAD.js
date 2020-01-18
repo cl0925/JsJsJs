@@ -4,7 +4,6 @@ http-response https://r\.inews\.qq.com\/get(QQNewsUnreadList|RecommendList) requ
 
 [MITM]
 hostname = r.inews.qq.com
-@supported 96440338D30B
 */
 
 var obj = JSON.parse($response.body);

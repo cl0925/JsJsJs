@@ -4,7 +4,6 @@ http-request ^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) script-path=https
 
 [MITM]
 hostname = *.googlevideo.com
-@supported 96440338D30B
 */
 
 var data = {
