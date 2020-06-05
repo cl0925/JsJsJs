@@ -1,0 +1,60 @@
+<?xml version="1" encoding="utf-8"?>
+<config>
+	<game ver="3195" code_size="00000000">
+		<file name="mrpcs.data" gray="100" a="00000000" b="00000000"/>
+	</game>
+	<game ver="3730" code_size="00000000">
+		<file name="mrpcs.data" gray="100" a="00000000" b="00000000"/>
+	</game>
+	<game ver="4200" code_size="00000000">
+		<file name="mrpcs.data" gray="100" a="00000000" b="00000000"/>
+	</game>
+	<game ver="4762" code_size="00000000">
+		<file name="mrpcs.data" gray="100" a="00000000" b="00000000"/>
+	</game>
+	<game ver="5351" code_size="00000000">
+		<file name="mrpcs.data" gray="100" a="00000000" b="00000000"/>
+	</game>
+	<game ver="5630" code_size="00000000">
+		<file name="mrpcs.data" gray="100" a="00000000" b="00000000"/>
+	</game>
+	<game ver="6301" code_size="00000000">
+		<file name="mrpcs.data" gray="100" a="00000000" b="00000000"/>
+	</game>
+	<game ver="6500" code_size="00000000">
+		<file name="mrpcs.data" gray="100" a="00000000" b="00000000"/>
+	</game>
+	<game ver="7300" code_size="00000000">
+		<file name="mrpcs.data" gray="100" a="00000000" b="00000000"/>
+	</game>
+	<game ver="7700" code_size="00000000">
+		<file name="mrpcs.data" gray="100" a="00000000" b="00000000"/>
+	</game>
+	<game ver="7720" code_size="00000000">
+		<file name="mrpcs.data" gray="100" a="00000000" b="00000000"/>
+	</game>
+	<game ver="8000" code_size="00000000">
+		<file name="tssmua.zip" gray="100" a="00000000" b="00000000"/>
+		<file name="mrpcs.data" gray="100" a="00000000" b="00000000"/>
+	</game>
+	<game ver="8060" code_size="00000000">
+		<file name="mrpcs.data" gray="100" a="00000000" b="00000000"/>
+		<file name="tssmua.zip" gray="100" a="00000000" b="00000000"/>
+	</game>
+	<game ver="8151" code_size="00000000">
+		<file name="mrpcs.data" gray="100" a="00000000" b="00000000"/>
+		<file name="tssmua.zip" gray="100" a="00000000" b="00000000"/>
+	</game>
+	<game ver="8230" code_size="00000000">
+		<file name="mrpcs.data" gray="100" a="00000000" b="00000000"/>
+		<file name="tssmua.zip" gray="100" a="00000000" b="00000000"/>
+	</game>
+	<game ver="8351" code_size="00000000">
+		<file name="mrpcs.data" gray="100" a="00000000" b="00000000"/>
+		<file name="tssmua.zip" gray="100" a="00000000" b="00000000"/>
+	</game>
+	<game ver="1010" code_size="00000000">
+		<file name="mrpcs.data" gray="100" a="00000000" b="00000000"/>
+		<file name="tssmua.zip" gray="100" a="00000000" b="00000000"/>
+	</game>
+</config>
